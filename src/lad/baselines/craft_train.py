@@ -1,7 +1,6 @@
 """Paper-faithful CRAFT trainer (Fel et al., CVPR 2023).
 
-Mirrors ``D:/Work/XAP CVPR FINALFINAL/FACE/Baselines/CRAFT/craft_evaluation.py``, which
-uses the upstream ``craft.craft_torch.Craft`` class. CRAFT is unsupervised:
+Mirrors the CRAFT reference evaluation, which uses the upstream ``craft.craft_torch.Craft`` class. CRAFT is unsupervised:
 
 1. **Unfold** each preprocessed 224×224 image into overlapping ``patch_size`` patches
    (default 64×64, stride = ``int(0.8 · patch_size)``).

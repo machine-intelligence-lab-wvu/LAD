@@ -1,6 +1,6 @@
 """Paper-faithful FACE trainer (Bhusal et al., NeurIPS 2025).
 
-Mirrors the reference implementation in ``D:/Work/XAP CVPR FINALFINAL/FACE/FACE/nmfkl.py``:
+Mirrors the FACE reference implementation (`nmfkl.py` in the FACE codebase):
 
 1. **Unfold** each preprocessed 224×224 image into overlapping ``patch_size`` patches
    (default 64×64, stride = ``int(0.8 · patch_size)`` = 51 for the default).

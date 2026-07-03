@@ -1,7 +1,6 @@
 """Step 7: paper-faithful FACE training per (backbone, class, fold).
 
-Replicates the reference implementation
-(``D:/Work/XAP CVPR FINALFINAL/FACE/FACE/nmfkl.py``):
+Replicates the FACE reference implementation (Bhusal et al., NeurIPS 2025):
 
 * unfold each 224×224 image into ``patch_size`` patches with 80% overlap,
 * encode each patch through the backbone, mean-pool → ``A: [N_patches, C]``,

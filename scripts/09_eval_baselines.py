@@ -2,13 +2,13 @@
 
 Mirrors the eval semantics of the reference repos:
 
-* ``--mode face``  (matches ``D:/Work/XAP CVPR FINALFINAL/FACE/FACE/metrics.py``):
+* ``--mode face``  (matches the FACE reference eval, Bhusal et al., NeurIPS 2025):
     - recover U via **image-pooled** closed-form NNLS, *without* non-negativity clamp;
     - reconstruct flat ``A_hat = U @ W^T`` and classify via the model's flat head
       (``model.fc`` for ResNet, ``model.classifier`` for MobileNet/ConvNeXt);
     - C-Ins / C-Del are image-level (zero out concepts in U: ``[B, r]``);
 
-* ``--mode craft`` (matches ``D:/Work/XAP CVPR FINALFINAL/FACE/Baselines/CRAFT/craft_evaluation.py``):
+* ``--mode craft`` (matches the CRAFT reference eval, Fel et al., CVPR 2023):
     - recover U **per spatial cell** via closed-form NNLS, *without* clamp;
     - reconstruct spatial ``A_hat: [B, C, h, w]`` and classify via ``h_2d`` (GAP + head);
     - C-Ins / C-Del zero entire concepts across all spatial cells.

@@ -15,9 +15,9 @@ per-eye single-label flags (columns N,D,G,C,A,H,M,O). This script:
 The ODIR *source* archive lives outside the repo and is passed via ``--odir-src`` (or
 ``$LAD_ODIR_SRC``); nothing absolute is hard-coded here.
 
-Usage (Windows laptop):
+Usage:
   python scripts/retinal/00_prepare_odir.py \
-    --odir-src "D:/Work/MedVLN-Probe/data/ODIR-5K/archive"
+    --odir-src /path/to/ODIR-5K/archive
 """
 
 from __future__ import annotations

@@ -4,6 +4,10 @@
 
 LAD is a *post-hoc* concept-discovery framework whose concepts are simultaneously **named**, **faithful**, and obtained **without modifying the model**. For each class, a language model proposes a concept vocabulary and CLIP-based similarity maps localize each concept across image regions. LAD then **inverts** non-negative matrix factorization: it *fixes* the language-grounded similarity maps as the coefficient matrix `S` and learns *only* the concept basis `W` that reconstructs a frozen encoder's activations. Naming therefore becomes a structural constraint, and the model's own feature geometry — not CLIP — decides which concepts survive.
 
+![LAD decomposes each image into spatially localized, named concepts](assets/fig1_concept_discovery.jpg)
+
+<sub>Each image is decomposed into spatially localized, *named* concepts — part-level object concepts (*"Pointy Ears"*, *"Green Eyes"*) and structural scene concepts (*"Aisle Perspective"*, *"Book Spines in Rows"*).</sub>
+
 The optimization is
 
 ```
@@ -13,6 +17,10 @@ min_{W ≥ 0}  ½ · ‖ Ā − S Wᵀ ‖²_F        (learn the basis W by proj
 where `Ā` are the unfolded encoder activations (one row per spatial location). At inference, per-image concept coefficients `Ŝ` are recovered in closed form (non-negative least squares) with optional PGD refinement, then reshaped into named concept heatmaps.
 
 > Removing the language anchor (learning `S` too, i.e. plain unsupervised NMF) leaves **accuracy unchanged** but **collapses deletion faithfulness** — the anchor determines *which* concept directions are discovered, it is not cosmetic.
+
+![The LAD framework](assets/fig2_framework.png)
+
+<sub>(a) A frozen encoder `f` produces activations, unfolded into `Ā`. (b) CLIP red-circle similarity maps form the fixed coefficient matrix `S`; only the basis `W` is learned by reconstructing `Ā ≈ S Wᵀ`. (c) At inference, per-image coefficients `Ŝ` yield named concept heatmaps and importance vectors.</sub>
 
 ## Results
 
@@ -34,6 +42,20 @@ Primary comparison (from the paper). All methods preserve accuracy, so faithfuln
 |  | ICE | 0.990 | 0.980 | 0.455 |
 
 LAD leads on insertion everywhere and **uniquely names its concepts**; on the focal-evidence clinical domain it also leads deletion by a wide margin.
+
+## Qualitative results
+
+**Named concepts vs. unnamed factors.** ICE / CRAFT / FACE recover factors that highlight coarse regions with no name — the same factor index can point to different parts across images. LAD recovers fine-grained concepts, each tied to a human-readable label that means the same thing everywhere it appears.
+
+![Concept discovery on ImageNet: baselines vs. LAD](assets/fig3_concept_comparison.png)
+
+**Per-image named-concept rollouts** *(a capability unique to LAD)*. For a single input, LAD returns the named concepts the model used, each localized and annotated with its reconstruction contribution `ĉ` (top). The named concept *"maple neck"* localizes to the neck across every image of the class, whereas FACE's leading factor attaches to a different region each time (bottom).
+
+![Per-image named-concept rollouts](assets/fig4_rollout.jpg)
+
+**Clinical domain (retinal fundus, ODIR-5K).** LAD decomposes each prediction into separately named, localized clinical concepts — *"drusen-like structures"* localizes to the yellow deposits temporal to the optic disc, a hallmark of age-related macular degeneration.
+
+![Named-concept rollouts on retinal fundus images](assets/fig5_retinal.png)
 
 ## Installation
 

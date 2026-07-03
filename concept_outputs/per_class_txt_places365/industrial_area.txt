@@ -1,0 +1,25 @@
+factory skyline
+crane arm
+loading dock
+pipe network
+storage tanks
+heavy equipment
+paved parking lot
+industrial lighting
+safety railings
+large turbine
+industrial scaffolding
+gravel surface
+rusty machinery
+concrete sidewalk
+cable bundles
+conveyor belts
+chain link fence
+smokestack silhouette
+oil spill
+machinery control panel
+welded joints
+grimy windows
+loading bay
+industrial fans
+forklift tracks

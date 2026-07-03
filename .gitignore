@@ -1,0 +1,46 @@
+# --- data & generated artifacts (never committed; produced by the pipeline) ---
+data/
+outputs/
+models/
+runs/
+logs/
+figures/
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# --- secrets ---
+.env
+*.pem
+**/api_key*
+
+# --- python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+build/
+dist/
+
+# --- environments ---
+.venv/
+venv/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- editor / OS ---
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- notebooks ---
+.ipynb_checkpoints/
+
+# --- scratch ---
+*.tmp
+scratch/

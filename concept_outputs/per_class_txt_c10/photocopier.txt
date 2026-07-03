@@ -1,0 +1,10 @@
+document feeder
+toner cartridge
+output bin
+printed document
+paper jam
+paper tray
+scan button
+sheet guide
+output slot
+suction mechanism

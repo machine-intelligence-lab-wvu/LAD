@@ -1,0 +1,61 @@
+class_name,rounds,kept_total,filtered_generic,filtered_close,filtered_wordcount,filtered_duplicate
+african elephant,1,25,0,0,0,0
+giant panda,2,45,2,1,0,0
+golden retriever,2,45,1,0,0,1
+leopard,1,25,0,0,0,0
+red fox,2,48,1,0,0,0
+zebra,2,47,1,0,0,0
+gorilla,1,25,0,0,0,0
+brown bear,2,43,0,0,0,0
+killer whale,2,48,1,0,0,0
+sea lion,1,25,0,0,0,0
+tabby,1,25,0,0,0,0
+bald eagle,2,46,0,0,0,0
+bee eater,2,48,1,0,0,0
+king penguin,2,46,1,0,0,0
+flamingo,2,43,1,0,0,0
+toucan,2,44,0,0,0,0
+monarch,2,46,0,0,0,0
+pelican,2,39,1,0,0,0
+great white shark,2,48,0,1,0,0
+stingray,2,47,2,0,0,0
+coral reef,2,43,2,1,0,0
+komodo dragon,1,25,0,0,0,0
+axolotl,1,25,0,0,0,0
+indian cobra,2,47,0,0,0,0
+african crocodile,1,25,0,0,0,0
+box turtle,2,49,1,0,0,0
+dragonfly,2,45,1,0,0,0
+ladybug,2,43,4,0,0,0
+aircraft carrier,2,45,0,2,0,0
+ambulance,2,42,1,0,0,0
+bullet train,2,42,0,2,0,0
+container ship,2,44,0,1,0,0
+fire engine,2,45,0,3,0,0
+mountain bike,2,43,0,4,0,0
+sports car,2,46,0,0,0,0
+space shuttle,2,47,0,0,0,0
+church,2,43,0,0,0,0
+library,2,47,0,1,0,0
+suspension bridge,2,46,0,0,0,0
+steel arch bridge,2,37,0,7,0,0
+valley,2,45,0,0,0,0
+sandbar,2,45,0,0,0,0
+volcano,2,38,0,0,0,0
+lighthouse,2,46,0,1,0,0
+laptop,2,38,0,2,0,0
+computer keyboard,1,25,0,0,0,0
+joystick,2,48,0,0,0,0
+reflex camera,2,44,0,2,0,0
+electric guitar,2,47,0,0,0,0
+refrigerator,2,44,0,0,0,0
+desk,2,44,2,0,0,0
+washing machine,2,46,0,1,0,0
+banana,2,45,1,1,0,0
+carbonara,2,43,1,0,0,0
+cheeseburger,1,25,0,0,0,0
+guacamole,2,44,0,0,0,0
+pizza,2,46,0,2,0,0
+pomegranate,2,45,1,0,0,0
+espresso,2,45,0,0,0,0
+basketball,2,45,0,3,0,0

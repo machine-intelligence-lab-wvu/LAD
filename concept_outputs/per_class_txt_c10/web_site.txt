@@ -1,0 +1,10 @@
+home page
+browser tab
+notification banner
+responsive design
+grid layout
+highlighted button
+form input
+loading animation
+error message
+video player

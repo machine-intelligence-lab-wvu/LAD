@@ -1,0 +1,1001 @@
+idx,raw,simplified
+0,'tench',tench
+1,'goldfish',goldfish
+2,'great white shark',great_white_shark
+3,'tiger shark',tiger_shark
+4,'hammerhead',hammerhead
+5,'electric ray',electric_ray
+6,'stingray',stingray
+7,'cock',cock
+8,'hen',hen
+9,'ostrich',ostrich
+10,'brambling',brambling
+11,'goldfinch',goldfinch
+12,'house finch',house_finch
+13,'junco',junco
+14,'indigo bunting',indigo_bunting
+15,'robin',robin
+16,'bulbul',bulbul
+17,'jay',jay
+18,'magpie',magpie
+19,'chickadee',chickadee
+20,'water ouzel',water_ouzel
+21,'kite',kite
+22,'bald eagle',bald_eagle
+23,'vulture',vulture
+24,'great grey owl',great_grey_owl
+25,'European fire salamander',european_fire_salamander
+26,'common newt',common_newt
+27,'eft',eft
+28,'spotted salamander',spotted_salamander
+29,'axolotl',axolotl
+30,'bullfrog',bullfrog
+31,'tree frog',tree_frog
+32,'tailed frog',tailed_frog
+33,'loggerhead',loggerhead
+34,'leatherback turtle',leatherback_turtle
+35,'mud turtle',mud_turtle
+36,'terrapin',terrapin
+37,'box turtle',box_turtle
+38,'banded gecko',banded_gecko
+39,'common iguana',common_iguana
+40,'American chameleon',american_chameleon
+41,'whiptail',whiptail
+42,'agama',agama
+43,'frilled lizard',frilled_lizard
+44,'alligator lizard',alligator_lizard
+45,'Gila monster',gila_monster
+46,'green lizard',green_lizard
+47,'African chameleon',african_chameleon
+48,'Komodo dragon',komodo_dragon
+49,'African crocodile',african_crocodile
+50,'American alligator',american_alligator
+51,'triceratops',triceratops
+52,'thunder snake',thunder_snake
+53,'ringneck snake',ringneck_snake
+54,'hognose snake',hognose_snake
+55,'green snake',green_snake
+56,'king snake',king_snake
+57,'garter snake',garter_snake
+58,'water snake',water_snake
+59,'vine snake',vine_snake
+60,'night snake',night_snake
+61,'boa constrictor',boa_constrictor
+62,'rock python',rock_python
+63,'Indian cobra',indian_cobra
+64,'green mamba',green_mamba
+65,'sea snake',sea_snake
+66,'horned viper',horned_viper
+67,'diamondback',diamondback
+68,'sidewinder',sidewinder
+69,'trilobite',trilobite
+70,'harvestman',harvestman
+71,'scorpion',scorpion
+72,'black and gold garden spider',black_and_gold_garden_spider
+73,'barn spider',barn_spider
+74,'garden spider',garden_spider
+75,'black widow',black_widow
+76,'tarantula',tarantula
+77,'wolf spider',wolf_spider
+78,'tick',tick
+79,'centipede',centipede
+80,'black grouse',black_grouse
+81,'ptarmigan',ptarmigan
+82,'ruffed grouse',ruffed_grouse
+83,'prairie chicken',prairie_chicken
+84,'peacock',peacock
+85,'quail',quail
+86,'partridge',partridge
+87,'African grey',african_grey
+88,'macaw',macaw
+89,'sulphur-crested cockatoo',sulphurcrested_cockatoo
+90,'lorikeet',lorikeet
+91,'coucal',coucal
+92,'bee eater',bee_eater
+93,'hornbill',hornbill
+94,'hummingbird',hummingbird
+95,'jacamar',jacamar
+96,'toucan',toucan
+97,'drake',drake
+98,'red-breasted merganser',redbreasted_merganser
+99,'goose',goose
+100,'black swan',black_swan
+101,'tusker',tusker
+102,'echidna',echidna
+103,'platypus',platypus
+104,'wallaby',wallaby
+105,'koala',koala
+106,'wombat',wombat
+107,'jellyfish',jellyfish
+108,'sea anemone',sea_anemone
+109,'brain coral',brain_coral
+110,'flatworm',flatworm
+111,'nematode',nematode
+112,'conch',conch
+113,'snail',snail
+114,'slug',slug
+115,'sea slug',sea_slug
+116,'chiton',chiton
+117,'chambered nautilus',chambered_nautilus
+118,'Dungeness crab',dungeness_crab
+119,'rock crab',rock_crab
+120,'fiddler crab',fiddler_crab
+121,'king crab',king_crab
+122,'American lobster',american_lobster
+123,'spiny lobster',spiny_lobster
+124,'crayfish',crayfish
+125,'hermit crab',hermit_crab
+126,'isopod',isopod
+127,'white stork',white_stork
+128,'black stork',black_stork
+129,'spoonbill',spoonbill
+130,'flamingo',flamingo
+131,'little blue heron',little_blue_heron
+132,'American egret',american_egret
+133,'bittern',bittern
+134,'crane bird',crane_bird
+135,'limpkin',limpkin
+136,'European gallinule',european_gallinule
+137,'American coot',american_coot
+138,'bustard',bustard
+139,'ruddy turnstone',ruddy_turnstone
+140,'red-backed sandpiper',redbacked_sandpiper
+141,'redshank',redshank
+142,'dowitcher',dowitcher
+143,'oystercatcher',oystercatcher
+144,'pelican',pelican
+145,'king penguin',king_penguin
+146,'albatross',albatross
+147,'grey whale',grey_whale
+148,'killer whale',killer_whale
+149,'dugong',dugong
+150,'sea lion',sea_lion
+151,'Chihuahua',chihuahua
+152,'Japanese spaniel',japanese_spaniel
+153,'Maltese dog',maltese_dog
+154,'Pekinese',pekinese
+155,'Shih-Tzu',shihtzu
+156,'Blenheim spaniel',blenheim_spaniel
+157,'papillon',papillon
+158,'toy terrier',toy_terrier
+159,'Rhodesian ridgeback',rhodesian_ridgeback
+160,'Afghan hound',afghan_hound
+161,'basset',basset
+162,'beagle',beagle
+163,'bloodhound',bloodhound
+164,'bluetick',bluetick
+165,'black-and-tan coonhound',blackandtan_coonhound
+166,'Walker hound',walker_hound
+167,'English foxhound',english_foxhound
+168,'redbone',redbone
+169,'borzoi',borzoi
+170,'Irish wolfhound',irish_wolfhound
+171,'Italian greyhound',italian_greyhound
+172,'whippet',whippet
+173,'Ibizan hound',ibizan_hound
+174,'Norwegian elkhound',norwegian_elkhound
+175,'otterhound',otterhound
+176,'Saluki',saluki
+177,'Scottish deerhound',scottish_deerhound
+178,'Weimaraner',weimaraner
+179,'Staffordshire bullterrier',staffordshire_bullterrier
+180,'American Staffordshire terrier',american_staffordshire_terrier
+181,'Bedlington terrier',bedlington_terrier
+182,'Border terrier',border_terrier
+183,'Kerry blue terrier',kerry_blue_terrier
+184,'Irish terrier',irish_terrier
+185,'Norfolk terrier',norfolk_terrier
+186,'Norwich terrier',norwich_terrier
+187,'Yorkshire terrier',yorkshire_terrier
+188,'wire-haired fox terrier',wirehaired_fox_terrier
+189,'Lakeland terrier',lakeland_terrier
+190,'Sealyham terrier',sealyham_terrier
+191,'Airedale',airedale
+192,'cairn',cairn
+193,'Australian terrier',australian_terrier
+194,'Dandie Dinmont',dandie_dinmont
+195,'Boston bull',boston_bull
+196,'miniature schnauzer',miniature_schnauzer
+197,'giant schnauzer',giant_schnauzer
+198,'standard schnauzer',standard_schnauzer
+199,'Scotch terrier',scotch_terrier
+200,'Tibetan terrier',tibetan_terrier
+201,'silky terrier',silky_terrier
+202,'soft-coated wheaten terrier',softcoated_wheaten_terrier
+203,'West Highland white terrier',west_highland_white_terrier
+204,'Lhasa',lhasa
+205,'flat-coated retriever',flatcoated_retriever
+206,'curly-coated retriever',curlycoated_retriever
+207,'golden retriever',golden_retriever
+208,'Labrador retriever',labrador_retriever
+209,'Chesapeake Bay retriever',chesapeake_bay_retriever
+210,'German short-haired pointer',german_shorthaired_pointer
+211,'vizsla',vizsla
+212,'English setter',english_setter
+213,'Irish setter',irish_setter
+214,'Gordon setter',gordon_setter
+215,'Brittany spaniel',brittany_spaniel
+216,'clumber',clumber
+217,'English springer',english_springer
+218,'Welsh springer spaniel',welsh_springer_spaniel
+219,'cocker spaniel',cocker_spaniel
+220,'Sussex spaniel',sussex_spaniel
+221,'Irish water spaniel',irish_water_spaniel
+222,'kuvasz',kuvasz
+223,'schipperke',schipperke
+224,'groenendael',groenendael
+225,'malinois',malinois
+226,'briard',briard
+227,'kelpie',kelpie
+228,'komondor',komondor
+229,'Old English sheepdog',old_english_sheepdog
+230,'Shetland sheepdog',shetland_sheepdog
+231,'collie',collie
+232,'Border collie',border_collie
+233,'Bouvier des Flandres',bouvier_des_flandres
+234,'Rottweiler',rottweiler
+235,'German shepherd',german_shepherd
+236,'Doberman',doberman
+237,'miniature pinscher',miniature_pinscher
+238,'Greater Swiss Mountain dog',greater_swiss_mountain_dog
+239,'Bernese mountain dog',bernese_mountain_dog
+240,'Appenzeller',appenzeller
+241,'EntleBucher',entlebucher
+242,'boxer',boxer
+243,'bull mastiff',bull_mastiff
+244,'Tibetan mastiff',tibetan_mastiff
+245,'French bulldog',french_bulldog
+246,'Great Dane',great_dane
+247,'Saint Bernard',saint_bernard
+248,'Eskimo dog',eskimo_dog
+249,'malamute',malamute
+250,'Siberian husky',siberian_husky
+251,'dalmatian',dalmatian
+252,'affenpinscher',affenpinscher
+253,'basenji',basenji
+254,'pug',pug
+255,'Leonberg',leonberg
+256,'Newfoundland',newfoundland
+257,'Great Pyrenees',great_pyrenees
+258,'Samoyed',samoyed
+259,'Pomeranian',pomeranian
+260,'chow',chow
+261,'keeshond',keeshond
+262,'Brabancon griffon',brabancon_griffon
+263,'Pembroke',pembroke
+264,'Cardigan',cardigan
+265,'toy poodle',toy_poodle
+266,'miniature poodle',miniature_poodle
+267,'standard poodle',standard_poodle
+268,'Mexican hairless',mexican_hairless
+269,'timber wolf',timber_wolf
+270,'white wolf',white_wolf
+271,'red wolf',red_wolf
+272,'coyote',coyote
+273,'dingo',dingo
+274,'dhole',dhole
+275,'African hunting dog',african_hunting_dog
+276,'hyena',hyena
+277,'red fox',red_fox
+278,'kit fox',kit_fox
+279,'Arctic fox',arctic_fox
+280,'grey fox',grey_fox
+281,'tabby',tabby
+282,'tiger cat',tiger_cat
+283,'Persian cat',persian_cat
+284,'Siamese cat',siamese_cat
+285,'Egyptian cat',egyptian_cat
+286,'cougar',cougar
+287,'lynx',lynx
+288,'leopard',leopard
+289,'snow leopard',snow_leopard
+290,'jaguar',jaguar
+291,'lion',lion
+292,'tiger',tiger
+293,'cheetah',cheetah
+294,'brown bear',brown_bear
+295,'American black bear',american_black_bear
+296,'ice bear',ice_bear
+297,'sloth bear',sloth_bear
+298,'mongoose',mongoose
+299,'meerkat',meerkat
+300,'tiger beetle',tiger_beetle
+301,'ladybug',ladybug
+302,'ground beetle',ground_beetle
+303,'long-horned beetle',longhorned_beetle
+304,'leaf beetle',leaf_beetle
+305,'dung beetle',dung_beetle
+306,'rhinoceros beetle',rhinoceros_beetle
+307,'weevil',weevil
+308,'fly',fly
+309,'bee',bee
+310,'ant',ant
+311,'grasshopper',grasshopper
+312,'cricket',cricket
+313,'walking stick',walking_stick
+314,'cockroach',cockroach
+315,'mantis',mantis
+316,'cicada',cicada
+317,'leafhopper',leafhopper
+318,'lacewing',lacewing
+319,'dragonfly',dragonfly
+320,'damselfly',damselfly
+321,'admiral',admiral
+322,'ringlet',ringlet
+323,'monarch',monarch
+324,'cabbage butterfly',cabbage_butterfly
+325,'sulphur butterfly',sulphur_butterfly
+326,'lycaenid',lycaenid
+327,'starfish',starfish
+328,'sea urchin',sea_urchin
+329,'sea cucumber',sea_cucumber
+330,'wood rabbit',wood_rabbit
+331,'hare',hare
+332,'Angora',angora
+333,'hamster',hamster
+334,'porcupine',porcupine
+335,'fox squirrel',fox_squirrel
+336,'marmot',marmot
+337,'beaver',beaver
+338,'guinea pig',guinea_pig
+339,'sorrel',sorrel
+340,'zebra',zebra
+341,'hog',hog
+342,'wild boar',wild_boar
+343,'warthog',warthog
+344,'hippopotamus',hippopotamus
+345,'ox',ox
+346,'water buffalo',water_buffalo
+347,'bison',bison
+348,'ram',ram
+349,'bighorn',bighorn
+350,'ibex',ibex
+351,'hartebeest',hartebeest
+352,'impala',impala
+353,'gazelle',gazelle
+354,'Arabian camel',arabian_camel
+355,'llama',llama
+356,'weasel',weasel
+357,'mink',mink
+358,'polecat',polecat
+359,'black-footed ferret',blackfooted_ferret
+360,'otter',otter
+361,'skunk',skunk
+362,'badger',badger
+363,'armadillo',armadillo
+364,'three-toed sloth',threetoed_sloth
+365,'orangutan',orangutan
+366,'gorilla',gorilla
+367,'chimpanzee',chimpanzee
+368,'gibbon',gibbon
+369,'siamang',siamang
+370,'guenon',guenon
+371,'patas',patas
+372,'baboon',baboon
+373,'macaque',macaque
+374,'langur',langur
+375,'colobus',colobus
+376,'proboscis monkey',proboscis_monkey
+377,'marmoset',marmoset
+378,'capuchin',capuchin
+379,'howler monkey',howler_monkey
+380,'titi',titi
+381,'spider monkey',spider_monkey
+382,'squirrel monkey',squirrel_monkey
+383,'Madagascar cat',madagascar_cat
+384,'indri',indri
+385,'Indian elephant',indian_elephant
+386,'African elephant',african_elephant
+387,'lesser panda',lesser_panda
+388,'giant panda',giant_panda
+389,'barracouta',barracouta
+390,'eel',eel
+391,'coho',coho
+392,'rock beauty',rock_beauty
+393,'anemone fish',anemone_fish
+394,'sturgeon',sturgeon
+395,'gar',gar
+396,'lionfish',lionfish
+397,'puffer',puffer
+398,'abacus',abacus
+399,'abaya',abaya
+400,'academic gown',academic_gown
+401,'accordion',accordion
+402,'acoustic guitar',acoustic_guitar
+403,'aircraft carrier',aircraft_carrier
+404,'airliner',airliner
+405,'airship',airship
+406,'altar',altar
+407,'ambulance',ambulance
+408,'amphibian',amphibian
+409,'analog clock',analog_clock
+410,'apiary',apiary
+411,'apron',apron
+412,'ashcan',ashcan
+413,'assault rifle',assault_rifle
+414,'backpack',backpack
+415,'bakery',bakery
+416,'balance beam',balance_beam
+417,'balloon',balloon
+418,'ballpoint',ballpoint
+419,'Band Aid',band_aid
+420,'banjo',banjo
+421,'bannister',bannister
+422,'barbell',barbell
+423,'barber chair',barber_chair
+424,'barbershop',barbershop
+425,'barn',barn
+426,'barometer',barometer
+427,'barrel',barrel
+428,'barrow',barrow
+429,'baseball',baseball
+430,'basketball',basketball
+431,'bassinet',bassinet
+432,'bassoon',bassoon
+433,'bathing cap',bathing_cap
+434,'bath towel',bath_towel
+435,'bathtub',bathtub
+436,'beach wagon',beach_wagon
+437,'beacon',beacon
+438,'beaker',beaker
+439,'bearskin',bearskin
+440,'beer bottle',beer_bottle
+441,'beer glass',beer_glass
+442,'bell cote',bell_cote
+443,'bib',bib
+444,'bicycle-built-for-two',bicyclebuiltfortwo
+445,'bikini',bikini
+446,'binder',binder
+447,'binoculars',binoculars
+448,'birdhouse',birdhouse
+449,'boathouse',boathouse
+450,'bobsled',bobsled
+451,'bolo tie',bolo_tie
+452,'bonnet',bonnet
+453,'bookcase',bookcase
+454,'bookshop',bookshop
+455,'bottlecap',bottlecap
+456,'bow',bow
+457,'bow tie',bow_tie
+458,'brass',brass
+459,'brassiere',brassiere
+460,'breakwater',breakwater
+461,'breastplate',breastplate
+462,'broom',broom
+463,'bucket',bucket
+464,'buckle',buckle
+465,'bulletproof vest',bulletproof_vest
+466,'bullet train',bullet_train
+467,'butcher shop',butcher_shop
+468,'cab',cab
+469,'caldron',caldron
+470,'candle',candle
+471,'cannon',cannon
+472,'canoe',canoe
+473,'can opener',can_opener
+474,'cardigan',cardigan_474
+475,'car mirror',car_mirror
+476,'carousel',carousel
+477,"carpenter's kit",carpenters_kit
+478,'carton',carton
+479,'car wheel',car_wheel
+480,'cash machine',cash_machine
+481,'cassette',cassette
+482,'cassette player',cassette_player
+483,'castle',castle
+484,'catamaran',catamaran
+485,'CD player',cd_player
+486,'cello',cello
+487,'cellular telephone',cellular_telephone
+488,'chain',chain
+489,'chainlink fence',chainlink_fence
+490,'chain mail',chain_mail
+491,'chain saw',chain_saw
+492,'chest',chest
+493,'chiffonier',chiffonier
+494,'chime',chime
+495,'china cabinet',china_cabinet
+496,'Christmas stocking',christmas_stocking
+497,'church',church
+498,'cinema',cinema
+499,'cleaver',cleaver
+500,'cliff dwelling',cliff_dwelling
+501,'cloak',cloak
+502,'clog',clog
+503,'cocktail shaker',cocktail_shaker
+504,'coffee mug',coffee_mug
+505,'coffeepot',coffeepot
+506,'coil',coil
+507,'combination lock',combination_lock
+508,'computer keyboard',computer_keyboard
+509,'confectionery',confectionery
+510,'container ship',container_ship
+511,'convertible',convertible
+512,'corkscrew',corkscrew
+513,'cornet',cornet
+514,'cowboy boot',cowboy_boot
+515,'cowboy hat',cowboy_hat
+516,'cradle',cradle
+517,'crane',crane
+518,'crash helmet',crash_helmet
+519,'crate',crate
+520,'crib',crib
+521,'Crock Pot',crock_pot
+522,'croquet ball',croquet_ball
+523,'crutch',crutch
+524,'cuirass',cuirass
+525,'dam',dam
+526,'desk',desk
+527,'desktop computer',desktop_computer
+528,'dial telephone',dial_telephone
+529,'diaper',diaper
+530,'digital clock',digital_clock
+531,'digital watch',digital_watch
+532,'dining table',dining_table
+533,'dishrag',dishrag
+534,'dishwasher',dishwasher
+535,'disk brake',disk_brake
+536,'dock',dock
+537,'dogsled',dogsled
+538,'dome',dome
+539,'doormat',doormat
+540,'drilling platform',drilling_platform
+541,'drum',drum
+542,'drumstick',drumstick
+543,'dumbbell',dumbbell
+544,'Dutch oven',dutch_oven
+545,'electric fan',electric_fan
+546,'electric guitar',electric_guitar
+547,'electric locomotive',electric_locomotive
+548,'entertainment center',entertainment_center
+549,'envelope',envelope
+550,'espresso maker',espresso_maker
+551,'face powder',face_powder
+552,'feather boa',feather_boa
+553,'file',file
+554,'fireboat',fireboat
+555,'fire engine',fire_engine
+556,'fire screen',fire_screen
+557,'flagpole',flagpole
+558,'flute',flute
+559,'folding chair',folding_chair
+560,'football helmet',football_helmet
+561,'forklift',forklift
+562,'fountain',fountain
+563,'fountain pen',fountain_pen
+564,'four-poster',fourposter
+565,'freight car',freight_car
+566,'French horn',french_horn
+567,'frying pan',frying_pan
+568,'fur coat',fur_coat
+569,'garbage truck',garbage_truck
+570,'gasmask',gasmask
+571,'gas pump',gas_pump
+572,'goblet',goblet
+573,'go-kart',gokart
+574,'golf ball',golf_ball
+575,'golfcart',golfcart
+576,'gondola',gondola
+577,'gong',gong
+578,'gown',gown
+579,'grand piano',grand_piano
+580,'greenhouse',greenhouse
+581,'grille',grille
+582,'grocery store',grocery_store
+583,'guillotine',guillotine
+584,'hair slide',hair_slide
+585,'hair spray',hair_spray
+586,'half track',half_track
+587,'hammer',hammer
+588,'hamper',hamper
+589,'hand blower',hand_blower
+590,'hand-held computer',handheld_computer
+591,'handkerchief',handkerchief
+592,'hard disc',hard_disc
+593,'harmonica',harmonica
+594,'harp',harp
+595,'harvester',harvester
+596,'hatchet',hatchet
+597,'holster',holster
+598,'home theater',home_theater
+599,'honeycomb',honeycomb
+600,'hook',hook
+601,'hoopskirt',hoopskirt
+602,'horizontal bar',horizontal_bar
+603,'horse cart',horse_cart
+604,'hourglass',hourglass
+605,'iPod',ipod
+606,'iron',iron
+607,"jack-o'-lantern",jackolantern
+608,'jean',jean
+609,'jeep',jeep
+610,'jersey',jersey
+611,'jigsaw puzzle',jigsaw_puzzle
+612,'jinrikisha',jinrikisha
+613,'joystick',joystick
+614,'kimono',kimono
+615,'knee pad',knee_pad
+616,'knot',knot
+617,'lab coat',lab_coat
+618,'ladle',ladle
+619,'lampshade',lampshade
+620,'laptop',laptop
+621,'lawn mower',lawn_mower
+622,'lens cap',lens_cap
+623,'letter opener',letter_opener
+624,'library',library
+625,'lifeboat',lifeboat
+626,'lighter',lighter
+627,'limousine',limousine
+628,'liner',liner
+629,'lipstick',lipstick
+630,'Loafer',loafer
+631,'lotion',lotion
+632,'loudspeaker',loudspeaker
+633,'loupe',loupe
+634,'lumbermill',lumbermill
+635,'magnetic compass',magnetic_compass
+636,'mailbag',mailbag
+637,'mailbox',mailbox
+638,'maillot',maillot
+639,'maillot tank suit',maillot_tank_suit
+640,'manhole cover',manhole_cover
+641,'maraca',maraca
+642,'marimba',marimba
+643,'mask',mask
+644,'matchstick',matchstick
+645,'maypole',maypole
+646,'maze',maze
+647,'measuring cup',measuring_cup
+648,'medicine chest',medicine_chest
+649,'megalith',megalith
+650,'microphone',microphone
+651,'microwave',microwave
+652,'military uniform',military_uniform
+653,'milk can',milk_can
+654,'minibus',minibus
+655,'miniskirt',miniskirt
+656,'minivan',minivan
+657,'missile',missile
+658,'mitten',mitten
+659,'mixing bowl',mixing_bowl
+660,'mobile home',mobile_home
+661,'Model T',model_t
+662,'modem',modem
+663,'monastery',monastery
+664,'monitor',monitor
+665,'moped',moped
+666,'mortar',mortar
+667,'mortarboard',mortarboard
+668,'mosque',mosque
+669,'mosquito net',mosquito_net
+670,'motor scooter',motor_scooter
+671,'mountain bike',mountain_bike
+672,'mountain tent',mountain_tent
+673,'mouse',mouse
+674,'mousetrap',mousetrap
+675,'moving van',moving_van
+676,'muzzle',muzzle
+677,'nail',nail
+678,'neck brace',neck_brace
+679,'necklace',necklace
+680,'nipple',nipple
+681,'notebook',notebook
+682,'obelisk',obelisk
+683,'oboe',oboe
+684,'ocarina',ocarina
+685,'odometer',odometer
+686,'oil filter',oil_filter
+687,'organ',organ
+688,'oscilloscope',oscilloscope
+689,'overskirt',overskirt
+690,'oxcart',oxcart
+691,'oxygen mask',oxygen_mask
+692,'packet',packet
+693,'paddle',paddle
+694,'paddlewheel',paddlewheel
+695,'padlock',padlock
+696,'paintbrush',paintbrush
+697,'pajama',pajama
+698,'palace',palace
+699,'panpipe',panpipe
+700,'paper towel',paper_towel
+701,'parachute',parachute
+702,'parallel bars',parallel_bars
+703,'park bench',park_bench
+704,'parking meter',parking_meter
+705,'passenger car',passenger_car
+706,'patio',patio
+707,'pay-phone',payphone
+708,'pedestal',pedestal
+709,'pencil box',pencil_box
+710,'pencil sharpener',pencil_sharpener
+711,'perfume',perfume
+712,'Petri dish',petri_dish
+713,'photocopier',photocopier
+714,'pick',pick
+715,'pickelhaube',pickelhaube
+716,'picket fence',picket_fence
+717,'pickup',pickup
+718,'pier',pier
+719,'piggy bank',piggy_bank
+720,'pill bottle',pill_bottle
+721,'pillow',pillow
+722,'ping-pong ball',pingpong_ball
+723,'pinwheel',pinwheel
+724,'pirate',pirate
+725,'pitcher',pitcher
+726,'plane',plane
+727,'planetarium',planetarium
+728,'plastic bag',plastic_bag
+729,'plate rack',plate_rack
+730,'plow',plow
+731,'plunger',plunger
+732,'Polaroid camera',polaroid_camera
+733,'pole',pole
+734,'police van',police_van
+735,'poncho',poncho
+736,'pool table',pool_table
+737,'pop bottle',pop_bottle
+738,'pot',pot
+739,"potter's wheel",potters_wheel
+740,'power drill',power_drill
+741,'prayer rug',prayer_rug
+742,'printer',printer
+743,'prison',prison
+744,'projectile',projectile
+745,'projector',projector
+746,'puck',puck
+747,'punching bag',punching_bag
+748,'purse',purse
+749,'quill',quill
+750,'quilt',quilt
+751,'racer',racer
+752,'racket',racket
+753,'radiator',radiator
+754,'radio',radio
+755,'radio telescope',radio_telescope
+756,'rain barrel',rain_barrel
+757,'recreational vehicle',recreational_vehicle
+758,'reel',reel
+759,'reflex camera',reflex_camera
+760,'refrigerator',refrigerator
+761,'remote control',remote_control
+762,'restaurant',restaurant
+763,'revolver',revolver
+764,'rifle',rifle
+765,'rocking chair',rocking_chair
+766,'rotisserie',rotisserie
+767,'rubber eraser',rubber_eraser
+768,'rugby ball',rugby_ball
+769,'rule',rule
+770,'running shoe',running_shoe
+771,'safe',safe
+772,'safety pin',safety_pin
+773,'saltshaker',saltshaker
+774,'sandal',sandal
+775,'sarong',sarong
+776,'sax',sax
+777,'scabbard',scabbard
+778,'scale',scale
+779,'school bus',school_bus
+780,'schooner',schooner
+781,'scoreboard',scoreboard
+782,'screen',screen
+783,'screw',screw
+784,'screwdriver',screwdriver
+785,'seat belt',seat_belt
+786,'sewing machine',sewing_machine
+787,'shield',shield
+788,'shoe shop',shoe_shop
+789,'shoji',shoji
+790,'shopping basket',shopping_basket
+791,'shopping cart',shopping_cart
+792,'shovel',shovel
+793,'shower cap',shower_cap
+794,'shower curtain',shower_curtain
+795,'ski',ski
+796,'ski mask',ski_mask
+797,'sleeping bag',sleeping_bag
+798,'slide rule',slide_rule
+799,'sliding door',sliding_door
+800,'slot',slot
+801,'snorkel',snorkel
+802,'snowmobile',snowmobile
+803,'snowplow',snowplow
+804,'soap dispenser',soap_dispenser
+805,'soccer ball',soccer_ball
+806,'sock',sock
+807,'solar dish',solar_dish
+808,'sombrero',sombrero
+809,'soup bowl',soup_bowl
+810,'space bar',space_bar
+811,'space heater',space_heater
+812,'space shuttle',space_shuttle
+813,'spatula',spatula
+814,'speedboat',speedboat
+815,'spider web',spider_web
+816,'spindle',spindle
+817,'sports car',sports_car
+818,'spotlight',spotlight
+819,'stage',stage
+820,'steam locomotive',steam_locomotive
+821,'steel arch bridge',steel_arch_bridge
+822,'steel drum',steel_drum
+823,'stethoscope',stethoscope
+824,'stole',stole
+825,'stone wall',stone_wall
+826,'stopwatch',stopwatch
+827,'stove',stove
+828,'strainer',strainer
+829,'streetcar',streetcar
+830,'stretcher',stretcher
+831,'studio couch',studio_couch
+832,'stupa',stupa
+833,'submarine',submarine
+834,'suit',suit
+835,'sundial',sundial
+836,'sunglass',sunglass
+837,'sunglasses',sunglasses
+838,'sunscreen',sunscreen
+839,'suspension bridge',suspension_bridge
+840,'swab',swab
+841,'sweatshirt',sweatshirt
+842,'swimming trunks',swimming_trunks
+843,'swing',swing
+844,'switch',switch
+845,'syringe',syringe
+846,'table lamp',table_lamp
+847,'tank',tank
+848,'tape player',tape_player
+849,'teapot',teapot
+850,'teddy',teddy
+851,'television',television
+852,'tennis ball',tennis_ball
+853,'thatch',thatch
+854,'theater curtain',theater_curtain
+855,'thimble',thimble
+856,'thresher',thresher
+857,'throne',throne
+858,'tile roof',tile_roof
+859,'toaster',toaster
+860,'tobacco shop',tobacco_shop
+861,'toilet seat',toilet_seat
+862,'torch',torch
+863,'totem pole',totem_pole
+864,'tow truck',tow_truck
+865,'toyshop',toyshop
+866,'tractor',tractor
+867,'trailer truck',trailer_truck
+868,'tray',tray
+869,'trench coat',trench_coat
+870,'tricycle',tricycle
+871,'trimaran',trimaran
+872,'tripod',tripod
+873,'triumphal arch',triumphal_arch
+874,'trolleybus',trolleybus
+875,'trombone',trombone
+876,'tub',tub
+877,'turnstile',turnstile
+878,'typewriter keyboard',typewriter_keyboard
+879,'umbrella',umbrella
+880,'unicycle',unicycle
+881,'upright',upright
+882,'vacuum',vacuum
+883,'vase',vase
+884,'vault',vault
+885,'velvet',velvet
+886,'vending machine',vending_machine
+887,'vestment',vestment
+888,'viaduct',viaduct
+889,'violin',violin
+890,'volleyball',volleyball
+891,'waffle iron',waffle_iron
+892,'wall clock',wall_clock
+893,'wallet',wallet
+894,'wardrobe',wardrobe
+895,'warplane',warplane
+896,'washbasin',washbasin
+897,'washer',washer
+898,'water bottle',water_bottle
+899,'water jug',water_jug
+900,'water tower',water_tower
+901,'whiskey jug',whiskey_jug
+902,'whistle',whistle
+903,'wig',wig
+904,'window screen',window_screen
+905,'window shade',window_shade
+906,'Windsor tie',windsor_tie
+907,'wine bottle',wine_bottle
+908,'wing',wing
+909,'wok',wok
+910,'wooden spoon',wooden_spoon
+911,'wool',wool
+912,'worm fence',worm_fence
+913,'wreck',wreck
+914,'yawl',yawl
+915,'yurt',yurt
+916,'web site',web_site
+917,'comic book',comic_book
+918,'crossword puzzle',crossword_puzzle
+919,'street sign',street_sign
+920,'traffic light',traffic_light
+921,'book jacket',book_jacket
+922,'menu',menu
+923,'plate',plate
+924,'guacamole',guacamole
+925,'consomme',consomme
+926,'hot pot',hot_pot
+927,'trifle',trifle
+928,'ice cream',ice_cream
+929,'ice lolly',ice_lolly
+930,'French loaf',french_loaf
+931,'bagel',bagel
+932,'pretzel',pretzel
+933,'cheeseburger',cheeseburger
+934,'hotdog',hotdog
+935,'mashed potato',mashed_potato
+936,'head cabbage',head_cabbage
+937,'broccoli',broccoli
+938,'cauliflower',cauliflower
+939,'zucchini',zucchini
+940,'spaghetti squash',spaghetti_squash
+941,'acorn squash',acorn_squash
+942,'butternut squash',butternut_squash
+943,'cucumber',cucumber
+944,'artichoke',artichoke
+945,'bell pepper',bell_pepper
+946,'cardoon',cardoon
+947,'mushroom',mushroom
+948,'Granny Smith',granny_smith
+949,'strawberry',strawberry
+950,'orange',orange
+951,'lemon',lemon
+952,'fig',fig
+953,'pineapple',pineapple
+954,'banana',banana
+955,'jackfruit',jackfruit
+956,'custard apple',custard_apple
+957,'pomegranate',pomegranate
+958,'hay',hay
+959,'carbonara',carbonara
+960,'chocolate sauce',chocolate_sauce
+961,'dough',dough
+962,'meat loaf',meat_loaf
+963,'pizza',pizza
+964,'potpie',potpie
+965,'burrito',burrito
+966,'red wine',red_wine
+967,'espresso',espresso
+968,'cup',cup
+969,'eggnog',eggnog
+970,'alp',alp
+971,'bubble',bubble
+972,'cliff',cliff
+973,'coral reef',coral_reef
+974,'geyser',geyser
+975,'lakeside',lakeside
+976,'promontory',promontory
+977,'sandbar',sandbar
+978,'seashore',seashore
+979,'valley',valley
+980,'volcano',volcano
+981,'ballplayer',ballplayer
+982,'groom',groom
+983,'scuba diver',scuba_diver
+984,'rapeseed',rapeseed
+985,'daisy',daisy
+986,"yellow lady's slipper",yellow_ladys_slipper
+987,'corn',corn
+988,'acorn',acorn
+989,'hip',hip
+990,'buckeye',buckeye
+991,'coral fungus',coral_fungus
+992,'agaric',agaric
+993,'gyromitra',gyromitra
+994,'stinkhorn',stinkhorn
+995,'earthstar',earthstar
+996,'hen-of-the-woods',henofthewoods
+997,'bolete',bolete
+998,'ear',ear
+999,'toilet tissue',toilet_tissue

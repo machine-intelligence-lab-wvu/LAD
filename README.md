@@ -60,7 +60,7 @@ LAD leads on insertion everywhere and **uniquely names its concepts**; on the fo
 ## Installation
 
 ```bash
-git clone https://github.com/<your-org>/lad.git && cd lad
+git clone https://github.com/machine-intelligence-lab-wvu/LAD.git && cd LAD
 python -m venv .venv
 source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -e .[dev]

@@ -62,7 +62,9 @@ from lad.decomposition import (  # noqa: E402
 from lad.metrics import calculate_gini, compute_sparsity  # noqa: E402
 
 
-ARCHIVE_ROOT = Path("D:/Work/ECCV/Dataset/Imagenet_filtered/resnet34/correct")
+# Default local image pool: the Step-2 filtered/correct ResNet34 folder. Override with
+# --archive-root, or pass --hf-download to stream a few images from HuggingFace instead.
+ARCHIVE_ROOT = paths.filtered_class_dir("resnet34", "").parent
 
 
 def parse_args():
@@ -76,6 +78,8 @@ def parse_args():
     p.add_argument("--radius", type=int, default=16)
     p.add_argument("--regen-concepts", action="store_true",
                    help="Re-run gpt-4o-mini for this class to verify the OpenAI key.")
+    p.add_argument("--archive-root", type=Path, default=ARCHIVE_ROOT,
+                   help="Local image pool: <root>/<class>/*.JPEG (default: Step-2 filtered resnet34).")
     p.add_argument("--hf-download", action="store_true",
                    help="Pull images from HuggingFace instead of the archive.")
     p.add_argument("--out-dir", default=str(REPO / "dry_run_output"))
@@ -88,7 +92,7 @@ def banner(title: str):
     print("=" * 70)
 
 
-def step_1_get_images(class_name: str, limit: int, hf_download: bool) -> Path:
+def step_1_get_images(class_name: str, limit: int, hf_download: bool, archive_root: Path) -> Path:
     banner(f"Step 1 — get {limit} images of '{class_name}'")
     out_dir = paths.FILTERED_ROOT / "resnet34" / "correct" / class_name
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -117,11 +121,11 @@ def step_1_get_images(class_name: str, limit: int, hf_download: bool) -> Path:
                 print(f"  wrote {wrote}/{limit} (elapsed {time.perf_counter()-t0:.1f}s)")
         print(f"  done — {wrote} images in {time.perf_counter()-t0:.1f}s")
     else:
-        if not ARCHIVE_ROOT.exists():
+        if not archive_root.exists():
             raise RuntimeError(
-                f"Archive not found at {ARCHIVE_ROOT}. Either fix the path or use --hf-download."
+                f"Archive not found at {archive_root}. Pass --archive-root or use --hf-download."
             )
-        archive_dir = ARCHIVE_ROOT / class_name
+        archive_dir = archive_root / class_name
         if not archive_dir.exists():
             raise RuntimeError(f"No archive folder for {class_name!r} at {archive_dir}")
         candidates = sorted(archive_dir.glob("*.jpg"))[:limit]
@@ -349,7 +353,7 @@ def main():
 
     out_dir = Path(args.out_dir)
 
-    step_1_get_images(args.class_name, args.limit, args.hf_download)
+    step_1_get_images(args.class_name, args.limit, args.hf_download, args.archive_root)
     concepts = step_3_concepts(args.class_name, args.regen_concepts, device)
     step_4_build_npz(args.class_name, concepts, args.grid, args.radius, device)
 

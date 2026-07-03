@@ -6,7 +6,7 @@ LAD is a *post-hoc* concept-discovery framework whose concepts are simultaneousl
 
 ![LAD decomposes each image into spatially localized, named concepts](assets/fig1_concept_discovery.jpg)
 
-<sub>Each image is decomposed into spatially localized, *named* concepts — part-level object concepts (*"Pointy Ears"*, *"Green Eyes"*) and structural scene concepts (*"Aisle Perspective"*, *"Book Spines in Rows"*).</sub>
+<sub>Each image is decomposed into spatially localized, *named* concepts — part-level object concepts (*"Pointy Ears"*, *"Green Eyes"*, *"Whiskers"*) and contextual scene concepts (*"Crowd in the Background"*, *"Player Dribbling"*, *"Player Hand Holding Ball"*).</sub>
 
 The optimization is
 
